@@ -1220,7 +1220,8 @@ app.add_middleware(
         os.environ.get("FRONTEND_URL", ""),
         "http://localhost:3000",
         "https://portal.rebild.in",
-        "https://client-onboard-rebild.vercel.app"
+        "https://client-onboard-rebild.vercel.app",
+        "https://rebild-backend.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
